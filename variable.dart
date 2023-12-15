@@ -8,9 +8,9 @@ void main() {
     'url': '//path/to/saturn.jpg'
   };
 
-  print(name);
+  print('Nama: ${name}');
   print(year);
   print(antennaDiameter);
-  print(flybyObjects);
+  print(flybyObjects[0]);
   print(image);
 }
